@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://106.46.169.241:3306/blz?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: developer
+    password: Bb6hXestiGkC4yfj
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 2
+    host: 192.168.0.22
+    port: 6379
+    password: redis
+
+
+server:
+  servlet:
+    context-path: /credit
+  port: 9000
